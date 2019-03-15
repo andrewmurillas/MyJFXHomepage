@@ -13,7 +13,7 @@
 	   <top>
 	      <AnchorPane id="menuBar" prefHeight="78.0" prefWidth="600.0" style="-fx-background-color: #00ffff;" BorderPane.alignment="CENTER">
 	         <children>
-	            <Label layoutX="206.0" layoutY="20.0" text="Saturno">
+	            <Label layoutX="268.0" layoutY="20.0" text="Saturno">
 	               <font>
 	                  <Font name="System Bold" size="27.0" />
 	               </font>
