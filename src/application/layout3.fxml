@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" stylesheets="@applicatione.css" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Controller3">
+	<BorderPane>
+	   <top>
+	      <AnchorPane id="menuBar" prefHeight="78.0" prefWidth="600.0" style="-fx-background-color: #00ffff;" BorderPane.alignment="CENTER">
+	         <children>
+	            <Label layoutX="206.0" layoutY="20.0" text="Nebulosa">
+	               <font>
+	                  <Font name="System Bold" size="27.0" />
+	               </font>
+	            </Label>
+	         </children></AnchorPane>
+	   </top>
+	   <center>
+	      <AnchorPane id="img3" prefHeight="322.0" prefWidth="437.0" stylesheets="@applicatione.css" BorderPane.alignment="CENTER" />
+	   </center>
+	   <left>
+	      <VBox prefHeight="322.0" prefWidth="100.0" BorderPane.alignment="CENTER">
+	         <children>
+	            <ImageView fitHeight="150.0" fitWidth="100.0" onMouseClicked="#setPrevious" pickOnBounds="true" preserveRatio="true">
+	               <image>
+	                  <Image url="@Arrowleft.png" />
+	               </image>
+	            </ImageView>
+	         </children>
+	      </VBox>
+	   </left>
+	   <right>
+	      <VBox prefHeight="200.0" prefWidth="100.0" BorderPane.alignment="CENTER">
+	         <children>
+	            <ImageView fitHeight="150.0" fitWidth="100.0" onMouseClicked="#setNext" pickOnBounds="true" preserveRatio="true">
+	               <image>
+	                  <Image url="@ArrowRight.png" />
+	               </image>
+	            </ImageView>
+	         </children>
+	      </VBox>
+	   </right>
+	</BorderPane>
+</AnchorPane>

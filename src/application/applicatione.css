@@ -1,0 +1,27 @@
+#ima{
+	-fx-background-image: url("black-hole.jpg");
+	-fx-background-size: 100% 100%;
+	-fx-background-repeat: no-repeat;
+}
+#menuBar{
+	-fx-background-color: #00ffff;
+}
+#burguerButton{
+	-fx-background-image: url("burguerButton.png");
+	-fx-background-size: 100% 100%
+}
+#img2{
+	-fx-background-image: url("saturn.jpg");
+	-fx-background-size: 100% 100%;
+}
+#img3{
+	-fx-background-image: url("orion-nebula.jpg");
+	-fx-background-size: 100% 100%;
+}
+#img4{
+	-fx-background-image: url("sun.jpg");
+	-fx-background-size: 100% 100%;
+}
+#arrowRight{
+	
+}
